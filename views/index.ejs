@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8">
+    <title>control FormData with Formidable</title>
+  </head>
+  <body>
+    <form id="upload" method="POST" action="/upload" enctype="multipart/form-data">
+      <input type="hidden" name="hidden-value" value="12345">
+      <input type="file" name="files" accept="image/*" multiple>
+      <input type="submit" value="upload">
+    </form>
+    <script src="/jquery-2.1.4.min.js"></script>
+    <script src="/index.js"></script>
+  </body>
+</html>
